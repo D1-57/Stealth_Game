@@ -47,16 +47,16 @@ public class playermove : MonoBehaviour
 
 
 
-        // if (Controller.isGrounded)
-        // {
-        //     verticalvelocity = -gravity * Time.deltaTime;
-        //     if (Input.GetAxis("Jump") > 0)
-        //         verticalvelocity = jump;
-        // }
-        // else
-        // {
-        //     verticalvelocity -= gravity * Time.deltaTime;
-        // }
+        if (Controller.isGrounded)
+        {
+            verticalvelocity = -gravity * Time.deltaTime;
+            if (Input.GetAxis("Jump") > 0)
+                verticalvelocity = sleep;
+        }
+        else
+        {
+            verticalvelocity -= gravity * Time.deltaTime;
+        }
 
 
         Vector3 movedirection = new Vector3(horizontal, 0, vertical).normalized;
