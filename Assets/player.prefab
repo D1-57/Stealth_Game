@@ -133,7 +133,7 @@ MonoBehaviour:
   Worldshift: {fileID: 0}
   detectangle: 45
   speed: 5
-  jump: 0
+  jump: -1230.1954
   sleep: 0
   rotateSpeed: 100
 --- !u!143 &6793904434847216009
