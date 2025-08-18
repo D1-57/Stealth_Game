@@ -50,8 +50,8 @@ public class playermove : MonoBehaviour
         if (Controller.isGrounded)
         {
             verticalvelocity = -gravity * Time.deltaTime;
-            if (Input.GetAxis("Jump") > 0)
-                verticalvelocity = sleep;
+            // if (Input.GetAxis("Jump") > 0)
+            //     verticalvelocity = sleep;
         }
         else
         {
