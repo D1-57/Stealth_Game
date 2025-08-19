@@ -3,7 +3,122 @@ guid: a047234c67a7f374d80c6cce1026e416
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: f8ee738872695524f80f3b66ccf7a826, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: comp_mat_note
+    second: {fileID: 2100000, guid: 6f39f855ea809a94fa510859d2bb5b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 5b57cbbe80a2e18498380f31970e293b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__2 Door Filing Container
+    second: {fileID: 2100000, guid: eb57eea8d364f6e4ca3719930ff0da30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__4 Door Filing Container
+    second: {fileID: 2100000, guid: 5825bedbe8a14154c934aa28c9deb58c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Aglaonema Leaf
+    second: {fileID: 2100000, guid: d0ce5a2ff694cb84484efea5b0b80472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__PC Monitor amd Keyboard
+    second: {fileID: 2100000, guid: bca7f76ae6bb4a0429466353c917342f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__PC Tower and Mouse
+    second: {fileID: 2100000, guid: 7dc3a72a554ad6d4a92da68b7f6342cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Panasonic VHS TV_
+    second: {fileID: 2100000, guid: ced81ae2110db6b4b9f17e8c3b72d97f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Pin Board
+    second: {fileID: 2100000, guid: 90a03d21eacec5b40a4c3e9499570c8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Pot Plant
+    second: {fileID: 2100000, guid: 79ae1b670636c194b8f18761a8055346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Stack of Papers
+    second: {fileID: 2100000, guid: 314b0fec189797b488bedcc79771d9a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Wall
+    second: {fileID: 2100000, guid: 38c46f04afd8ec24d9b371ff021e308e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Water Cooler
+    second: {fileID: 2100000, guid: 3f8998bb78740f743bff72d85e9974b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Water Jug
+    second: {fileID: 2100000, guid: 8767d69e58a94994ca3131ffe7ba3ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted___auto_3.001
+    second: {fileID: 2100000, guid: 2ce48712a062f13498e8c306c04e88a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__aiStandardSurface5
+    second: {fileID: 2100000, guid: 854c218c20328994b8ca8b41bbbc837e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__floor2
+    second: {fileID: 2100000, guid: 4671ce77ea4e8a24c8de5aeb47166764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert14
+    second: {fileID: 2100000, guid: 7aafb01e3ea87a9439b2d4afacb6a449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__blinn1
+    second: {fileID: 2100000, guid: 813edabd186201642b69a98b0c5bd8d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__lambert3
+    second: {fileID: 2100000, guid: 3cb0adce91bb3404c9fbd5b6f75291d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__lambert4
+    second: {fileID: 2100000, guid: 12da8c6a8974a404494d371400ef463c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__screen3
+    second: {fileID: 2100000, guid: eb8a4ecf8e976574ebe8c6f51d89206a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
