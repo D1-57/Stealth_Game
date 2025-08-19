@@ -17,6 +17,7 @@ public class playermove : MonoBehaviour
     float gravity = 14;
     public float jump;
     public float sleep;
+    public Animator anim;
 
     float verticalvelocity;
 
@@ -44,6 +45,17 @@ public class playermove : MonoBehaviour
         float speedrun = 1f;
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+        if (Mathf.Abs(horizontal) + Mathf.Abs(vertical) > 0)
+        {
+            anim.SetInteger("speed", 1);
+
+        }
+        else
+        {
+            anim.SetInteger("speed", 0);
+        }
+        float zRotation = anim.GetFloat("ZRotationCurve");
+        transform.rotation = Quaternion.Euler(0, 0, zRotation);
 
 
 
@@ -141,5 +153,10 @@ public class playermove : MonoBehaviour
     {
         sleep--;
     }
+    void LateUpdate()
+{
+    float currentZ = transform.rotation.eulerAngles.z;
+    transform.rotation = Quaternion.Euler(0, 0, currentZ);
+}
 
 }
