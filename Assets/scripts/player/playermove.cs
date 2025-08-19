@@ -54,8 +54,7 @@ public class playermove : MonoBehaviour
         {
             anim.SetInteger("speed", 0);
         }
-        float zRotation = anim.GetFloat("ZRotationCurve");
-        transform.rotation = Quaternion.Euler(0, 0, zRotation);
+        
 
 
 
@@ -153,10 +152,6 @@ public class playermove : MonoBehaviour
     {
         sleep--;
     }
-    void LateUpdate()
-{
-    float currentZ = transform.rotation.eulerAngles.z;
-    transform.rotation = Quaternion.Euler(0, 0, currentZ);
-}
+    
 
 }
