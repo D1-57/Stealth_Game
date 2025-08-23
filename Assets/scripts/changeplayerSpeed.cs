@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class changeplayerSpeed : MonoBehaviour
 {
+    public GameObject text;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,6 +19,7 @@ public class changeplayerSpeed : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             other.GetComponent<playermove>().speed = 5;
+            Destroy(text);
         }
     }
 }

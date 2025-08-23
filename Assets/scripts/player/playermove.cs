@@ -18,6 +18,10 @@ public class playermove : MonoBehaviour
     public float jump;
     public float sleep;
     public Animator anim;
+    public GameObject healthBar75;
+    public GameObject healthBar50;
+    public GameObject healthBar25;
+    public GameObject healthBar100;
 
     float verticalvelocity;
 
@@ -54,7 +58,22 @@ public class playermove : MonoBehaviour
         {
             anim.SetInteger("speed", 0);
         }
-        
+        if (jump <= 75)
+        {
+            Destroy(healthBar100);
+        }
+        else if (jump <= 50)
+        {
+            Destroy(healthBar75);
+        }
+        else if (jump <= 25)
+        {
+            Destroy(healthBar50);
+        }
+        else if (jump <= 25)
+        {
+            Destroy(healthBar25);
+        }
 
 
 
@@ -124,7 +143,7 @@ public class playermove : MonoBehaviour
             }
 
         }
-        Debug.Log(jump);
+        
 
     }
 
