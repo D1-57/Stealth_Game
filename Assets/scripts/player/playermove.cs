@@ -62,15 +62,15 @@ public class playermove : MonoBehaviour
         {
             Destroy(healthBar100);
         }
-        else if (jump <= 50)
+         if (jump <= 50)
         {
             Destroy(healthBar75);
         }
-        else if (jump <= 25)
+         if (jump <= 25)
         {
             Destroy(healthBar50);
         }
-        else if (jump <= 25)
+         if (jump <= 0)
         {
             Destroy(healthBar25);
         }
