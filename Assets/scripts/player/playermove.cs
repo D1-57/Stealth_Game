@@ -22,6 +22,7 @@ public class playermove : MonoBehaviour
     public GameObject healthBar50;
     public GameObject healthBar25;
     public GameObject healthBar100;
+    public GameObject losingUI;
 
     float verticalvelocity;
 
@@ -73,6 +74,7 @@ public class playermove : MonoBehaviour
          if (jump <= 0)
         {
             Destroy(healthBar25);
+            losingUI.SetActive(true);
         }
 
 
