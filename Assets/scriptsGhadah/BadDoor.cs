@@ -8,7 +8,7 @@ public class BadDoor : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (losingUI != null) losingUI.SetActive(true);
+            losingUI.SetActive(true);
             Time.timeScale = 0f;
         }
     }
