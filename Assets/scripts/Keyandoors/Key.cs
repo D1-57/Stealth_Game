@@ -3,6 +3,8 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     public GameObject doors;
+    public AudioSource open;
+    public AudioClip openingsound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,6 +29,7 @@ public class Key : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             doors.SetActive(true);
+            open.PlayOneShot(openingsound);
             Debug.Log("p");
         }
     }
