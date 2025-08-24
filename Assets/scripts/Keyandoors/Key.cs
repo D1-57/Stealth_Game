@@ -31,6 +31,7 @@ public class Key : MonoBehaviour
         {
             thedoors.SetActive(true);
             open.PlayOneShot(openingsound);
+            Destroy(gameObject);
             Debug.Log("p");
         }
     }
