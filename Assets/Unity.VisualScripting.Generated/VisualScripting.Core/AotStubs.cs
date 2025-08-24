@@ -1074,15 +1074,15 @@ namespace Unity.VisualScripting.Generated.Aot
 	// playermove.jump
 	// UnityEngine.Transform.position
 	// UnityEngine.AI.NavMeshAgent.ResetPath
-	// UnityEngine.Animator.SetFloat
 	// UnityEngine.AI.NavMeshAgent.SetDestination
 	// UnityEngine.Animator.SetBool
+	// UnityEngine.Animator.SetFloat
 	// UnityEngine.Vector3.x
+	// UnityEngine.Vector3.z
 	// UnityEngine.AudioSource.PlayOneShot
 	// bool.FalseString
-	// UnityEngine.Vector3.z
-	// bool.Parse
 	// bool.TrueString
+	// bool.Parse
 	// UnityEngine.GameObject.CompareTag
 	// UnityEngine.RaycastHit.collider
 	// UnityEngine.Ray..ctor
@@ -13447,19 +13447,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.Animator.SetFloat
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Animator_SetFloat()
-		{
-			global::UnityEngine.Animator target = default(global::UnityEngine.Animator);
-			string arg0 = default(string);
-			float arg1 = default(float);
-			target.SetFloat(arg0, arg1);
-			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.Animator), arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
 		// UnityEngine.AI.NavMeshAgent.SetDestination
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_AI_NavMeshAgent_SetDestination()
@@ -13485,6 +13472,19 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.Animator.SetFloat
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Animator_SetFloat()
+		{
+			global::UnityEngine.Animator target = default(global::UnityEngine.Animator);
+			string arg0 = default(string);
+			float arg1 = default(float);
+			target.SetFloat(arg0, arg1);
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Animator), arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// UnityEngine.Vector3.x
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Vector3_x()
@@ -13492,6 +13492,18 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::UnityEngine.Vector3 target = default(global::UnityEngine.Vector3);
 			float accessor = target.x;
 			target.x = default(float);
+			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(default(global::UnityEngine.Vector3));
+			optimized.SetValue(default(global::UnityEngine.Vector3), default(float));
+		}
+		
+		// UnityEngine.Vector3.z
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Vector3_z()
+		{
+			global::UnityEngine.Vector3 target = default(global::UnityEngine.Vector3);
+			float accessor = target.z;
+			target.z = default(float);
 			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
 			optimized.GetValue(default(global::UnityEngine.Vector3));
 			optimized.SetValue(default(global::UnityEngine.Vector3), default(float));
@@ -13518,16 +13530,13 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.GetValue(null);
 		}
 		
-		// UnityEngine.Vector3.z
+		// bool.TrueString
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Vector3_z()
+		public static void bool_TrueString()
 		{
-			global::UnityEngine.Vector3 target = default(global::UnityEngine.Vector3);
-			float accessor = target.z;
-			target.z = default(float);
-			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(default(global::UnityEngine.Vector3));
-			optimized.SetValue(default(global::UnityEngine.Vector3), default(float));
+			string accessor = bool.TrueString;
+			global::Unity.VisualScripting.StaticFieldAccessor<string> optimized = new global::Unity.VisualScripting.StaticFieldAccessor<string>(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(null);
 		}
 		
 		// bool.Parse
@@ -13539,15 +13548,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.StaticFunctionInvoker<string, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<string, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0);
 			optimized.Invoke(default(object[]));
-		}
-		
-		// bool.TrueString
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void bool_TrueString()
-		{
-			string accessor = bool.TrueString;
-			global::Unity.VisualScripting.StaticFieldAccessor<string> optimized = new global::Unity.VisualScripting.StaticFieldAccessor<string>(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(null);
 		}
 		
 		// UnityEngine.GameObject.CompareTag

@@ -9,9 +9,9 @@ public class BadDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             losingUI.SetActive(true);
-            Time.timeScale = 0f;
-
             Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            Time.timeScale = 0f;
 
         }
     }

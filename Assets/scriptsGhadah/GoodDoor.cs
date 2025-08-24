@@ -9,9 +9,14 @@ public class GoodDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             winningUI.SetActive(true);
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
+
+            //Cursor.lockState = CursorLockMode.Confined;
 
             Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            Time.timeScale = 0f;
+
 
         }
     }

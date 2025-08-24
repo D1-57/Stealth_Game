@@ -75,6 +75,7 @@ public class playermove : MonoBehaviour
         {
             Destroy(healthBar25);
             losingUI.SetActive(true);
+            Cursor.lockState = CursorLockMode.Confined;
         }
 
 
