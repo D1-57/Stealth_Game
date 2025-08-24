@@ -22,6 +22,7 @@ public class Key : MonoBehaviour
         {
             thedoors.SetActive(true);
             Debug.Log("p");
+            gameObject.SetActive(false);
         }
     }
     private void OnTriggerEnter(Collider other)

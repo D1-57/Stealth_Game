@@ -20,8 +20,16 @@ public class PauseManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            if (isPaused) ResumeGame();
-            else PauseGame();
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Confined;
+                PauseGame();
+            }
+
         }
     }
 

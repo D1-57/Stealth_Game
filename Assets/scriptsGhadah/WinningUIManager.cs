@@ -26,6 +26,8 @@ public class WinningUIManager : MonoBehaviour
 
     public void ShowWinningUI()
     {
+        Cursor.lockState = CursorLockMode.Confined;
+
         if (winningPanel != null) winningPanel.SetActive(true);
         Time.timeScale = 0f;
     }

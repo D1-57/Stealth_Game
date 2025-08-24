@@ -13,6 +13,8 @@ public class DeathUIManager : MonoBehaviour
 
     public void ShowDeathUI()
     {
+        Cursor.lockState = CursorLockMode.Confined;
+
         if (deathPanel != null) deathPanel.SetActive(true);
         Time.timeScale = 0f;
     }
