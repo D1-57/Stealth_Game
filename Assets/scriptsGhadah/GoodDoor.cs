@@ -10,6 +10,9 @@ public class GoodDoor : MonoBehaviour
         {
             winningUI.SetActive(true);
             Time.timeScale = 0f;
+
+            Cursor.lockState = CursorLockMode.Confined;
+
         }
     }
 }
