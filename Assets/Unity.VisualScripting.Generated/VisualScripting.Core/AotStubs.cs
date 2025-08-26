@@ -1074,17 +1074,17 @@ namespace Unity.VisualScripting.Generated.Aot
 	// playermove.jump
 	// UnityEngine.Transform.position
 	// UnityEngine.AI.NavMeshAgent.ResetPath
+	// UnityEngine.Animator.SetFloat
 	// UnityEngine.AI.NavMeshAgent.SetDestination
 	// UnityEngine.Animator.SetBool
-	// UnityEngine.Animator.SetFloat
 	// UnityEngine.Vector3.x
 	// UnityEngine.Vector3.z
-	// UnityEngine.AudioSource.PlayOneShot
 	// bool.FalseString
-	// bool.TrueString
+	// UnityEngine.AudioSource.PlayOneShot
 	// bool.Parse
-	// UnityEngine.GameObject.CompareTag
+	// bool.TrueString
 	// UnityEngine.RaycastHit.collider
+	// UnityEngine.GameObject.CompareTag
 	// UnityEngine.Ray..ctor
 	// UnityEngine.Physics.Raycast
 	// UnityEngine.Debug.Log
@@ -13447,6 +13447,19 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.Animator.SetFloat
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Animator_SetFloat()
+		{
+			global::UnityEngine.Animator target = default(global::UnityEngine.Animator);
+			string arg0 = default(string);
+			float arg1 = default(float);
+			target.SetFloat(arg0, arg1);
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Animator), arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// UnityEngine.AI.NavMeshAgent.SetDestination
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_AI_NavMeshAgent_SetDestination()
@@ -13468,19 +13481,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			bool arg1 = default(bool);
 			target.SetBool(arg0, arg1);
 			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, bool> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.Animator), arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.Animator.SetFloat
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Animator_SetFloat()
-		{
-			global::UnityEngine.Animator target = default(global::UnityEngine.Animator);
-			string arg0 = default(string);
-			float arg1 = default(float);
-			target.SetFloat(arg0, arg1);
-			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string, float>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::UnityEngine.Animator), arg0, arg1);
 			optimized.Invoke(default(object[]));
 		}
@@ -13509,6 +13509,15 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.SetValue(default(global::UnityEngine.Vector3), default(float));
 		}
 		
+		// bool.FalseString
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void bool_FalseString()
+		{
+			string accessor = bool.FalseString;
+			global::Unity.VisualScripting.StaticFieldAccessor<string> optimized = new global::Unity.VisualScripting.StaticFieldAccessor<string>(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(null);
+		}
+		
 		// UnityEngine.AudioSource.PlayOneShot
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_AudioSource_PlayOneShot()
@@ -13519,24 +13528,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.AudioSource, UnityEngine.AudioClip> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.AudioSource, UnityEngine.AudioClip>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::UnityEngine.AudioSource), arg0);
 			optimized.Invoke(default(object[]));
-		}
-		
-		// bool.FalseString
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void bool_FalseString()
-		{
-			string accessor = bool.FalseString;
-			global::Unity.VisualScripting.StaticFieldAccessor<string> optimized = new global::Unity.VisualScripting.StaticFieldAccessor<string>(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(null);
-		}
-		
-		// bool.TrueString
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void bool_TrueString()
-		{
-			string accessor = bool.TrueString;
-			global::Unity.VisualScripting.StaticFieldAccessor<string> optimized = new global::Unity.VisualScripting.StaticFieldAccessor<string>(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(null);
 		}
 		
 		// bool.Parse
@@ -13550,16 +13541,13 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.GameObject.CompareTag
+		// bool.TrueString
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_GameObject_CompareTag()
+		public static void bool_TrueString()
 		{
-			global::UnityEngine.GameObject target = default(global::UnityEngine.GameObject);
-			string arg0 = default(string);
-			target.CompareTag(arg0);
-			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.GameObject, string, bool> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.GameObject, string, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.GameObject), arg0);
-			optimized.Invoke(default(object[]));
+			string accessor = bool.TrueString;
+			global::Unity.VisualScripting.StaticFieldAccessor<string> optimized = new global::Unity.VisualScripting.StaticFieldAccessor<string>(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(null);
 		}
 		
 		// UnityEngine.RaycastHit.collider
@@ -13570,6 +13558,18 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::UnityEngine.Collider accessor = target.collider;
 			global::Unity.VisualScripting.ReflectionPropertyAccessor optimized = new global::Unity.VisualScripting.ReflectionPropertyAccessor(default(global::System.Reflection.PropertyInfo));
 			optimized.GetValue(default(global::UnityEngine.RaycastHit));
+		}
+		
+		// UnityEngine.GameObject.CompareTag
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_CompareTag()
+		{
+			global::UnityEngine.GameObject target = default(global::UnityEngine.GameObject);
+			string arg0 = default(string);
+			target.CompareTag(arg0);
+			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.GameObject, string, bool> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.GameObject, string, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.GameObject), arg0);
+			optimized.Invoke(default(object[]));
 		}
 		
 		// UnityEngine.Ray..ctor
