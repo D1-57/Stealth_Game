@@ -85895,7 +85895,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 7e588fec6015fb54cb503ddd1e84b215, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: d030e7d3edf2eca448b469ae8ef83f22, type: 3}
+      objectReference: {fileID: 9000000, guid: 7e588fec6015fb54cb503ddd1e84b215, type: 3}
     - target: {fileID: 5866666021909216657, guid: 7e588fec6015fb54cb503ddd1e84b215, type: 3}
       propertyPath: m_Controller
       value: 
@@ -122834,7 +122834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5707696884457276901, guid: a669ec26a0add8444b25b6d0f4c345ad, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5873119007611520115, guid: a669ec26a0add8444b25b6d0f4c345ad, type: 3}
       propertyPath: m_IsActive
