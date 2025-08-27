@@ -18,7 +18,7 @@ public class changeplayerSpeed : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.GetComponent<playermove>().speed = 5;
+            other.GetComponent<playermove>().speed = 9;
             Destroy(text);
         }
     }
